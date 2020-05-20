@@ -2,6 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>2.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>David Reaburn, Chris Leclair</Authors>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/XCVG/BitConverter</PackageProjectUrl>
+    <PackageIcon>EndianBitConverter.png</PackageIcon>
+    <RepositoryUrl>https://github.com/XCVG/BitConverter</RepositoryUrl>
+    <Copyright>© Microsoft Corporation, Chris Leclair. All rights reserved.</Copyright>
+    <Company>Microsoft Corporation, XCVG Systems</Company>
+    <Description>Provides a big-endian and little-endian BitConverter that convert base data types to an array of bytes, and an array of bytes to base data types, regardless of machine architecture.</Description>
+    <PackageTags>Endian BigEndian LittleEndian BitConverter</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\EndianBitConverter.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
