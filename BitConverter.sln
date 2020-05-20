@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndianBitConverter", "EndianBitConverter\EndianBitConverter.csproj", "{848519BA-2143-4B62-92B4-A93425CE8A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndianBitConverter", "EndianBitConverter\EndianBitConverter.csproj", "{307C7700-BA3F-4B56-A44A-D369D2021B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndianBitConverter.Tests", "EndianBitConverter.Tests\EndianBitConverter.Tests.csproj", "{8D662449-7772-4CD2-9444-C073B6FE1F90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndianBitConverter.Tests", "EndianBitConverter.Tests\EndianBitConverter.Tests.csproj", "{12C7685A-9CBA-4FD2-9679-6360FA7DAED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{848519BA-2143-4B62-92B4-A93425CE8A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{848519BA-2143-4B62-92B4-A93425CE8A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{848519BA-2143-4B62-92B4-A93425CE8A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{848519BA-2143-4B62-92B4-A93425CE8A19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D662449-7772-4CD2-9444-C073B6FE1F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D662449-7772-4CD2-9444-C073B6FE1F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D662449-7772-4CD2-9444-C073B6FE1F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D662449-7772-4CD2-9444-C073B6FE1F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307C7700-BA3F-4B56-A44A-D369D2021B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307C7700-BA3F-4B56-A44A-D369D2021B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307C7700-BA3F-4B56-A44A-D369D2021B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307C7700-BA3F-4B56-A44A-D369D2021B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C7685A-9CBA-4FD2-9679-6360FA7DAED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C7685A-9CBA-4FD2-9679-6360FA7DAED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C7685A-9CBA-4FD2-9679-6360FA7DAED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C7685A-9CBA-4FD2-9679-6360FA7DAED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ECCA5D4-B184-46AC-A898-61EAE3F91B47}
 	EndGlobalSection
 EndGlobal
