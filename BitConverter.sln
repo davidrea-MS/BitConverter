@@ -7,6 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndianBitConverter", "Endia
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndianBitConverter.Tests", "EndianBitConverter.Tests\EndianBitConverter.Tests.csproj", "{C56FC316-F02D-4C0D-B588-CAA4132CF360}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_solution files", "_solution files", "{C7D9E938-1285-4249-B43F-7D1F4DEA9FA1}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		EndianBitConverter.png = EndianBitConverter.png
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -23,15 +23,33 @@ namespace EndianBitConverter
         public static EndianBitConverter LittleEndian { get; } = new LittleEndianBitConverter();
 
         /// <summary>
+        /// Get an instance of a <see cref="MidLittleEndianBitConverter"/>, a BitConverter which performs all conversions in mid little-endian format regardless of
+        /// machine architecture.
+        /// </summary>
+        public static EndianBitConverter MidLittleEndian { get; } = new MidLittleEndianBitConverter();
+
+        /// <summary>
         /// Get an instance of a <see cref="BigEndianBitConverter"/>, a BitConverter which performs all conversions in big-endian format regardless of
         /// machine architecture.
         /// </summary>
         public static EndianBitConverter BigEndian { get; } = new BigEndianBitConverter();
 
         /// <summary>
+        /// Get an instance of a <see cref="MidBigEndianBitConverter"/>, a BitConverter which performs all conversions in mid big-endian format regardless of
+        /// machine architecture.
+        /// </summary>
+        public static EndianBitConverter MidBigEndian { get; } = new MidBigEndianBitConverter();
+
+        /// <summary>
         /// Indicates the byte order ("endianness") in which data should be converted.
         /// </summary>
         public abstract bool IsLittleEndian { get; }
+
+        /// <summary>
+        /// Indicates if the bytes should be converted from mid.
+        /// </summary>
+        public abstract bool IsMid { get; }
+
 
         /// <summary>
         /// Returns the specified Boolean value as a byte array.

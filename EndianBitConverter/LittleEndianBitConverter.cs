@@ -12,7 +12,7 @@ namespace EndianBitConverter
         internal LittleEndianBitConverter() { }
 
         public override bool IsLittleEndian { get; } = true;
-
+        public override bool IsMid { get; } = false;
         public override byte[] GetBytes(short value)
         {
             return new byte[] { (byte)value, (byte)(value >> 8) };
