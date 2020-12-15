@@ -1,23 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;net40;netcoreapp1.0;netstandard1.0</TargetFrameworks>
-	<Optimize Condition="'$(Configuration)'=='Release'">True</Optimize>
-	<Version>1.1.0.0</Version>
-	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(MSBuildProjectName).xml</DocumentationFile>
-    <Company>Microsoft Corporation</Company>
-	<Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
-    <Authors>David Reaburn</Authors>
-	<PackageTags>Endian BigEndian LittleEndian BitConverter</PackageTags>
-	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Description>Provides a big-endian and little-endian BitConverter that convert base data types to an array of bytes, and an array of bytes to base data types, regardless of machine architecture.</Description>
-	<PackageLicenseUrl>https://raw.githubusercontent.com/davidrea-MS/BitConverter/master/LICENSE.txt</PackageLicenseUrl>
-	<RepositoryUrl>https://github.com/davidrea-MS/BitConverter</RepositoryUrl>
-	<PackageIconUrl>https://raw.githubusercontent.com/davidrea-MS/BitConverter/master/EndianBitConverter.png</PackageIconUrl>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <FileVersion>3.1.0.0</FileVersion>
+    <Version>3.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>David Reaburn, Chris Leclair</Authors>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/XCVG/BitConverter</PackageProjectUrl>
+    <PackageIcon>EndianBitConverter.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ovidiaconescu/BitConverter</RepositoryUrl>
+    <Copyright>© Microsoft Corporation, Chris Leclair, Ovidiu Diaconescu. All rights reserved.</Copyright>
+    <Company>Microsoft Corporation, XCVG Systems, Ovidiu Diaconescu</Company>
+    <Description>Provides a big-endian, little-endian mid big-endian, mid little-endian BitConverter that convert base data types to an array of bytes, and an array of bytes to base data types, regardless of machine architecture. This is a third-party fork of the original project with the project cleaned up slightly and updated to .NET Standard 2.0.</Description>
+    <PackageTags>Endian BigEndian LittleEndian MidBigEndian MidLittleEndian BitConverter</PackageTags>
   </PropertyGroup>
-
-  <ItemGroup>
-	<Content Include="LICENSE.EndianBitConverter.txt" />
-  </ItemGroup>
-
-</Project>
+	</Project>

@@ -1,6 +1,6 @@
 ﻿// Copyright (C) Microsoft Corporation. All rights reserved.
 
-namespace BitConverter
+namespace EndianBitConverter
 {
     /// <summary>
     /// A little-endian BitConverter that converts base data types to an array of bytes, and an array of bytes to base data types. All conversions are in
@@ -12,7 +12,7 @@ namespace BitConverter
         internal LittleEndianBitConverter() { }
 
         public override bool IsLittleEndian { get; } = true;
-
+        public override bool IsMid { get; } = false;
         public override byte[] GetBytes(short value)
         {
             return new byte[] { (byte)value, (byte)(value >> 8) };

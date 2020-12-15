@@ -1,6 +1,6 @@
 ﻿// Copyright (C) Microsoft Corporation. All rights reserved.
 
-namespace BitConverter.Tests
+namespace EndianBitConverter.Tests
 {
     using System;
     using System.Linq;
